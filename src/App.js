@@ -15,7 +15,10 @@ class AppStart extends Component {
         <HeaderSite />
         <Main />
         <About />
-        {/*         <Experience /> */}
+        <br />
+        <br />
+        <br />
+        <Experience />
         <Education />
         <Skill />
         <Achievements />

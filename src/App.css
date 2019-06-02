@@ -155,3 +155,24 @@ ul li {
   padding: 20px;
   font-size: 19px;
 }
+
+.experience-detail {
+  padding: 30px;
+  font-size: 25px;
+  font-family: "ZCOOL XiaoWei", serif;
+}
+.exp-title {
+  margin-top: -20px;
+}
+.exp-content {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+}
+@media only screen and (max-width: 500px) {
+  .exp-content {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+  }
+}
