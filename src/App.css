@@ -1,32 +1,157 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Philosopher");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei");
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Sawarabi+Mincho|ZCOOL+XiaoWei");
+html {
+  scroll-behavior: smooth;
+}
+
+.header-color {
+  background: #870000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #190a05,
+    #870000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #190a05,
+    #870000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home-page {
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.profile-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.name-css {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  font-weight: 100;
+  color: white;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.surname {
+  color: yellow;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.sub-detail {
+  font-family: "Dancing Script", cursive;
   color: white;
+  font-size: 20px;
+  font-weight: 20;
+  text-align: center;
+  margin-top: -25px;
+  letter-spacing: 2px;
 }
-
-.App-link {
-  color: #61dafb;
+.listposition {
+  float: right;
 }
+/* ************
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+css for About component 
+
+************** */
+.about-css {
+  margin-top: 100px;
+}
+.head-about {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: darkcyan;
+}
+.content-about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 1000px;
+}
+@media only screen and (max-width: 1280px) {
+  .content-about {
+    width: auto;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.about-detail1 {
+  padding: 20px;
+  opacity: 1;
+  font-size: 25px;
+  font-family: "ZCOOL XiaoWei", serif;
+}
+.about-detail {
+  padding: 20px;
+  opacity: 0.9;
+  font-size: 20px;
+  font-family: "ZCOOL XiaoWei", serif;
+}
+.about-sub-detail {
+  font-size: 15px;
+  opacity: 0.8;
+  font-family: "Merriweather", serif;
+}
+/* **********
+
+css for eduction component 
+******** */
+.education-detail {
+  padding: 20px;
+  font-size: 25px;
+  font-family: "ZCOOL XiaoWei", serif;
+}
+.bach-course {
+  opacity: 0.8;
+  font-size: 20px;
+}
+.bach-subject {
+  opacity: 0.8;
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+}
+.bach-date {
+  float: right;
+  opacity: 0.8;
+}
+.jik {
+  margin-left: 70px;
+}
+p i {
+  padding: 20px;
+  opacity: 0.8;
+}
+p i:first-child:hover {
+  color: orangered;
+}
+p i:nth-child(2):hover {
+  color: blue;
+}
+p i:nth-child(3):hover {
+  color: yellow;
+}
+p i:nth-child(4):hover {
+  color: lightskyblue;
+}
+p i:nth-child(6):hover {
+  color: green;
+}
+p i:nth-child(5):hover {
+  color: lightsalmon;
+}
+ul li {
+  padding: 10px;
+  font-family: "ZCOOL XiaoWei", serif;
+  font-size: 19px;
+}
+.achievements {
+  padding: 20px;
+  font-size: 19px;
 }

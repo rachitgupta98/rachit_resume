@@ -1,28 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from "react";
+import HeaderSite from "./myComponent/header";
+//import HomePage from "./myComponent/homePage";
+import Main from "./myComponent/main";
+import About from "./myComponent/About";
+import Experience from "./myComponent/experience";
+import Education from "./myComponent/education";
+import Skill from "./myComponent/Skill";
+import Achievements from "./myComponent/achievements";
 
-class App extends Component {
+class AppStart extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Fragment>
+        <HeaderSite />
+        <Main />
+        <About />
+        {/*         <Experience /> */}
+        <Education />
+        <Skill />
+        <Achievements />
+      </Fragment>
     );
   }
 }
 
-export default App;
+export default AppStart;
