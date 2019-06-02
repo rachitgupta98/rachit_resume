@@ -14,22 +14,13 @@ class AppStart extends Component {
     return (
       <Fragment>
         <HeaderSite />
-        <br />
-        <br />
-        <br />
         <HomePage />
         <About />
-        <br />
-        <br />
-        <br />
+
         <Experience />
-        <br />
-        <br />
-        <br />
+
         <Education />
-        <br />
-        <br />
-        <br />
+
         <Skill />
         <Achievements />
       </Fragment>
