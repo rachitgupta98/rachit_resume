@@ -1,12 +1,13 @@
 import React, { Component, Fragment } from "react";
 import HeaderSite from "./myComponent/header";
 //import HomePage from "./myComponent/homePage";
-import Main from "./myComponent/main";
+
 import About from "./myComponent/About";
 import Experience from "./myComponent/experience";
 import Education from "./myComponent/education";
 import Skill from "./myComponent/Skill";
 import Achievements from "./myComponent/achievements";
+import HomePage from "./myComponent/homePage";
 
 class AppStart extends Component {
   render() {
@@ -16,7 +17,7 @@ class AppStart extends Component {
         <br />
         <br />
         <br />
-        <Main />
+        <HomePage />
         <About />
         <br />
         <br />
