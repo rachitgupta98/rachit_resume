@@ -8,9 +8,23 @@ import CardMedia from "@material-ui/core/CardMedia";
 import logomits from "../images/mits logo.jpg";
 import logoacm from "../images/acm.png";
 import logopr from "../images/0.png";
+
 import { Hidden } from "@material-ui/core";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+const particleoptions = {
+  particles: {
+    number: {
+      value: 150,
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    }
+  }
+};
+
 AOS.init();
 const styles = theme => ({
   card: {
@@ -45,129 +59,133 @@ class Experience extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div id="experience" className="content-about">
-        {" "}
-        <h1 className="head-about">Work Experience</h1>
-        <Card className="exp-content">
-          <Hidden smDown>
+      <div className="imgexp">
+        <div id="experience" className="content-about">
+          {" "}
+          <h1 className="head-about">Work Experience</h1>
+          <Card className="exp-content">
+            <Hidden smDown>
+              <Card
+                className={classes.card1}
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <CardMedia
+                  className={classes.cover}
+                  image={logomits}
+                  title="Live from space album cover"
+                />
+              </Card>
+            </Hidden>
             <Card
-              className={classes.card1}
-              data-aos="fade-right"
+              className={classes.card2}
+              data-aos="fade-left"
               data-aos-duration="1500"
             >
-              <CardMedia
-                className={classes.cover}
-                image={logomits}
-                title="Live from space album cover"
-              />
+              <div className={classes.detail}>
+                <CardContent className={classes.content}>
+                  <div className="education-detail">
+                    <p className="exp-title">
+                      Project Developer <br />
+                      <span className="bach-course">
+                        MITS,Gwalior{" "}
+                        <span className="bach-date">Jan 2019-May 2019</span>
+                      </span>
+                    </p>
+                    <p className="bach-subject">
+                      Developed a full functional project for the MP Police . It
+                      is a Crime Detection System which will identify the
+                      criminals in the prone areas.
+                    </p>
+                  </div>
+                </CardContent>
+              </div>
             </Card>
-          </Hidden>
-          <Card
-            className={classes.card2}
-            data-aos="fade-left"
-            data-aos-duration="1500"
-          >
-            <div className={classes.detail}>
-              <CardContent className={classes.content}>
-                <div className="education-detail">
-                  <p className="exp-title">
-                    Project Developer <br />
-                    <span className="bach-course">
-                      MITS,Gwalior{" "}
-                      <span className="bach-date">Jan 2019-May 2019</span>
-                    </span>
-                  </p>
-                  <p className="bach-subject">
-                    Developed a full functional project for the MP Police . It
-                    is a Crime Detection System which will identify the
-                    criminals in the prone areas.
-                  </p>
-                </div>
-              </CardContent>
-            </div>
           </Card>
-        </Card>
-        {/* acm */}
-        <br />
-        <br />
-        <Card className="exp-content">
-          <Hidden smDown>
+          {/* acm */}
+          <br />
+          <br />
+          <Card className="exp-content">
+            <Hidden smDown>
+              <Card
+                className={classes.card1}
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <CardMedia
+                  className={classes.cover}
+                  image={logoacm}
+                  title="Live from space album cover"
+                />
+              </Card>
+            </Hidden>
             <Card
-              className={classes.card1}
-              data-aos="fade-right"
+              className={classes.card2}
+              data-aos="fade-left"
               data-aos-duration="1500"
             >
-              <CardMedia
-                className={classes.cover}
-                image={logoacm}
-                title="Live from space album cover"
-              />
+              <div className={classes.detail}>
+                <CardContent className={classes.content}>
+                  <div className="education-detail">
+                    <p className="exp-title">
+                      Web Developer <br />
+                      <span className="bach-course">
+                        MITS,Gwalior{" "}
+                        <span className="bach-date">Jan 2019-Feb 2019</span>
+                      </span>
+                    </p>
+                    <p className="bach-subject">
+                      Developed the official website for the event name
+                      AlgoRythm conducted by
+                      <b> MITS ACM STUDENT CHAPTER</b>.
+                    </p>
+                  </div>
+                </CardContent>
+              </div>
             </Card>
-          </Hidden>
-          <Card
-            className={classes.card2}
-            data-aos="fade-left"
-            data-aos-duration="1500"
-          >
-            <div className={classes.detail}>
-              <CardContent className={classes.content}>
-                <div className="education-detail">
-                  <p className="exp-title">
-                    Web Developer <br />
-                    <span className="bach-course">
-                      MITS,Gwalior{" "}
-                      <span className="bach-date">Jan 2019-Feb 2019</span>
-                    </span>
-                  </p>
-                  <p className="bach-subject">
-                    Developed the official website for the event name AlgoRythm
-                    conducted by
-                    <b> MITS ACM STUDENT CHAPTER</b>.
-                  </p>
-                </div>
-              </CardContent>
-            </div>
           </Card>
-        </Card>
-        {/* Predico */}
-        <br />
-        <br />
-        <Card className="exp-content">
-          <Hidden smDown>
-            <Card
-              className={classes.card1}
-              data-aos="fade-right"
-              data-aos-duration="1500"
-            >
-              <CardMedia
-                className={classes.cover}
-                image={logopr}
-                title="Live from space album cover"
-              />
-            </Card>
-          </Hidden>
+          {/* Predico */}
+          <br />
+          <br />
+          <Card className="exp-content">
+            <Hidden smDown>
+              <Card
+                className={classes.card1}
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <CardMedia
+                  className={classes.cover}
+                  image={logopr}
+                  title="Live from space album cover"
+                />
+              </Card>
+            </Hidden>
 
-          <Card
-            className={classes.card2}
-            data-aos="fade-left"
-            data-aos-duration="1500"
-          >
-            <div className={classes.detail}>
-              <CardContent className={classes.content}>
-                <div className="education-detail">
-                  <p className="exp-title">
-                    Intern <br />
-                    <span className="bach-course">
-                      MITS,Gwalior{" "}
-                      <span className="bach-date">June 2019- present</span>
-                    </span>
-                  </p>
-                  <p className="bach-subject">Currently working</p>
-                </div>
-              </CardContent>
-            </div>
+            <Card
+              className={classes.card2}
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <div className={classes.detail}>
+                <CardContent className={classes.content}>
+                  <div className="education-detail">
+                    <p className="exp-title">
+                      Intern <br />
+                      <span className="bach-course">
+                        MITS,Gwalior{" "}
+                        <span className="bach-date">June 2019- present</span>
+                      </span>
+                    </p>
+                    <p className="bach-subject">Currently working</p>
+                  </div>
+                </CardContent>
+              </div>
+            </Card>
           </Card>
-        </Card>
+        </div>
+        <br />
+        <br />
       </div>
     );
   }

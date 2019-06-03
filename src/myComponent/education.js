@@ -7,7 +7,7 @@ AOS.init();
 const Education = () => {
   return (
     <div id="education" data-aos="fade-up" data-aos-duration="1500">
-      <Grid item xs={12}>
+      <Grid item xs={12} className="about-css">
         <h1 className="head-about">Education</h1>
         <div data-aos="fade-up" data-aos-duration="1500">
           <Paper className="content-about" elevation={20}>

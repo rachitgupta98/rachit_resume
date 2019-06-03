@@ -12,7 +12,11 @@ const About = () => {
       <Grid container className="about-css">
         <Grid item xs={12}>
           <h1 className="head-about">About</h1>
-          <div data-aos="zoom-in" data-aos-duration="2500">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2500"
+            className="about-img"
+          >
             <Paper className="content-about" elevation={24}>
               <div className="about-detail1">
                 Hello, I'm Rachit Gupta

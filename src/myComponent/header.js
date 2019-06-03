@@ -89,7 +89,7 @@ class Header extends Component {
                 color="inherit"
                 style={{ fontSize: "1rem" }}
               >
-                Skills & Interest
+                Skills
               </Button>
 
               <Button
