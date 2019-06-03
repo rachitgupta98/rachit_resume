@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/rachit_resume/static/media/mits logo.5e430ecf.jpg"
   },
   {
-    "revision": "cf2879d1bc0b4c6598e7",
-    "url": "/rachit_resume/static/css/main.33cb9a4d.chunk.css"
+    "revision": "aab5033ef32e8b7e56b1",
+    "url": "/rachit_resume/static/css/main.5e21c90f.chunk.css"
   },
   {
     "revision": "7202784f4ae90576444d9881d68bfb4d",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/rachit_resume/static/js/runtime~main.0930cedb.js"
   },
   {
-    "revision": "cf2879d1bc0b4c6598e7",
-    "url": "/rachit_resume/static/js/main.cf2879d1.chunk.js"
+    "revision": "aab5033ef32e8b7e56b1",
+    "url": "/rachit_resume/static/js/main.aab5033e.chunk.js"
   },
   {
     "revision": "7df5e4b894a793c505d98587f4f6a47c",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/rachit_resume/static/css/1.ce23f7a9.chunk.css"
   },
   {
-    "revision": "1c5e1f275530af60d3b5af45846722d2",
+    "revision": "9103da801aaf328a13f4e4a1f7f7aa5c",
     "url": "/rachit_resume/index.html"
   }
 ];
