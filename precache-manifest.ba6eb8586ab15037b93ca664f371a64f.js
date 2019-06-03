@@ -4,24 +4,24 @@ self.__precacheManifest = [
     "url": "/rachit_resume/static/media/mits logo.5e430ecf.jpg"
   },
   {
-    "revision": "64faca7f15e51c22afc8",
-    "url": "/rachit_resume/static/css/main.e579ef33.chunk.css"
+    "revision": "cf2879d1bc0b4c6598e7",
+    "url": "/rachit_resume/static/css/main.33cb9a4d.chunk.css"
   },
   {
     "revision": "7202784f4ae90576444d9881d68bfb4d",
     "url": "/rachit_resume/static/media/bg.7202784f.jpg"
   },
   {
-    "revision": "122a72b324d582ee6cbd",
-    "url": "/rachit_resume/static/js/1.122a72b3.chunk.js"
+    "revision": "56bb92852d05b65f82b6",
+    "url": "/rachit_resume/static/js/1.56bb9285.chunk.js"
   },
   {
     "revision": "0930cedb48f5259c0bdd",
     "url": "/rachit_resume/static/js/runtime~main.0930cedb.js"
   },
   {
-    "revision": "64faca7f15e51c22afc8",
-    "url": "/rachit_resume/static/js/main.64faca7f.chunk.js"
+    "revision": "cf2879d1bc0b4c6598e7",
+    "url": "/rachit_resume/static/js/main.cf2879d1.chunk.js"
   },
   {
     "revision": "7df5e4b894a793c505d98587f4f6a47c",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/rachit_resume/static/media/profile.61c998a2.jpg"
   },
   {
-    "revision": "122a72b324d582ee6cbd",
-    "url": "/rachit_resume/static/css/1.b5c93e0c.chunk.css"
+    "revision": "56bb92852d05b65f82b6",
+    "url": "/rachit_resume/static/css/1.ce23f7a9.chunk.css"
   },
   {
-    "revision": "7dc535c48ac1e66eb41c9b0a804573ca",
+    "revision": "1c5e1f275530af60d3b5af45846722d2",
     "url": "/rachit_resume/index.html"
   }
 ];
