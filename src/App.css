@@ -51,6 +51,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  box-shadow: 5px 5px 5px lightyellow;
 }
 .name-css {
   font-family: "Dancing Script", cursive;
@@ -147,22 +148,22 @@ p i {
   padding: 20px;
   opacity: 0.8;
 }
-p i:first-child:hover {
-  color: orangered;
+p i:first-child {
+  color: lightcoral;
 }
-p i:nth-child(2):hover {
-  color: blue;
+p i:nth-child(2) {
+  color: lightseagreen;
 }
-p i:nth-child(3):hover {
+p i:nth-child(3) {
   color: yellow;
 }
-p i:nth-child(4):hover {
+p i:nth-child(4) {
   color: lightskyblue;
 }
-p i:nth-child(6):hover {
-  color: green;
+p i:nth-child(6) {
+  color: lightgreen;
 }
-p i:nth-child(5):hover {
+p i:nth-child(5) {
   color: lightsalmon;
 }
 ul li {
@@ -212,9 +213,12 @@ ul li {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  height: 80%;
+  height: 100%;
 }
-
+.contact-about {
+  display: flex;
+  flex-direction: row;
+}
 @media only screen and (max-width: 500px) {
   .about_row {
     flex-direction: column;
@@ -226,5 +230,9 @@ ul li {
   }
   .about_h1 {
     text-align: center;
+  }
+  .contact-about {
+    display: flex;
+    flex-direction: column;
   }
 }

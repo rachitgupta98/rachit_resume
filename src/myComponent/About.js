@@ -86,17 +86,17 @@ const About = () => {
             </div>
             <div>
               <h1>Contact Details</h1>
-              <p data-aos="fade-up">
+              <p data-aos="fade-up" className="contact-about">
                 <span>
                   <i className="fas fa-envelope" />
                   guptarachit371@gmail.com
                 </span>
-                <br />
+
                 <span>
                   <i className="fas fa-mobile-alt" />
                   8462943194
                 </span>
-                <br />
+
                 <span>
                   <i className="fas fa-map-marker-alt" /> B-15,Pallavi Nagar,
                   Bhopal
