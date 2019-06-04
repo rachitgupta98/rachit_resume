@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Sawarabi+Mincho|ZCOOL+XiaoWei");
 html {
   scroll-behavior: smooth;
-  background-color: khaki;
 }
 .particles {
   position: fixed;
@@ -12,12 +11,13 @@ html {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1;
+  z-index: -1;
   width: 100%;
   height: 100%;
 }
 .header-color {
   background: #870000; /* fallback for old browsers */
+  opacity: 0.6;
   background: -webkit-linear-gradient(
     to top,
     #190a05,
@@ -193,5 +193,38 @@ ul li {
     display: flex;
     width: auto;
     flex-direction: column;
+  }
+}
+/* about css again */
+.bg_color {
+  background-color: black;
+}
+#about {
+}
+.about_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30%;
+  margin-bottom: 20%;
+}
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+}
+
+@media only screen and (max-width: 500px) {
+  .about_row {
+    flex-direction: column;
+    margin-top: 75%;
+  }
+  .profile-pic {
+    width: 100%;
+    height: auto;
+  }
+  .about_h1 {
+    text-align: center;
   }
 }

@@ -77,7 +77,7 @@ const particlesOptions = {
     detect_on: "canvas",
     events: {
       onhover: {
-        enable: true,
+        enable: false,
         mode: "repulse"
       },
       onclick: {
@@ -121,10 +121,12 @@ class AppStart extends Component {
         <HeaderSite />
         <HomePage />
         <About />
-        <Experience />
-        <Education />
-        <Skill />
-        <Achievements />
+        <div className="bg_color">
+          <Experience />
+          <Education />
+          <Skill />
+          <Achievements />
+        </div>
         <Particles className="particles" params={particlesOptions} />
       </Fragment>
     );
