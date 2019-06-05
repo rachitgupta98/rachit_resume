@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/rachit_resume/static/js/runtime~main.0930cedb.js"
   },
   {
-    "revision": "d6cd73bda2a5ba49b91e",
-    "url": "/rachit_resume/static/js/main.d6cd73bd.chunk.js"
+    "revision": "b874adc42d7ff9ec5a6b",
+    "url": "/rachit_resume/static/js/main.b874adc4.chunk.js"
   },
   {
-    "revision": "6c552b88177d0d429c10",
-    "url": "/rachit_resume/static/js/1.6c552b88.chunk.js"
+    "revision": "2e6f7afd25d4606c6689",
+    "url": "/rachit_resume/static/js/1.2e6f7afd.chunk.js"
   },
   {
-    "revision": "d6cd73bda2a5ba49b91e",
-    "url": "/rachit_resume/static/css/main.23aee806.chunk.css"
+    "revision": "b874adc42d7ff9ec5a6b",
+    "url": "/rachit_resume/static/css/main.6899a8de.chunk.css"
   },
   {
-    "revision": "6c552b88177d0d429c10",
+    "revision": "2e6f7afd25d4606c6689",
     "url": "/rachit_resume/static/css/1.9408549d.chunk.css"
   },
   {
-    "revision": "38508557ca62afd2957932acbf7a1da5",
+    "revision": "9dca9c9b08cfdbd03cd859cfeb2c1320",
     "url": "/rachit_resume/index.html"
   }
 ];
