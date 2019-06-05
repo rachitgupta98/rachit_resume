@@ -8,7 +8,8 @@ import Button from "@material-ui/core/Button";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const styles = theme => ({
   button: {
     marginTop: theme.spacing.unit,
@@ -29,11 +30,11 @@ function getSteps() {
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return ` Madhav Institute Of Technology And Science, Gwalior`;
+      return `Pursuing Bachelor of Engineering in Computer Science from Madhav Institute Of Technology And Science, Gwalior`;
     case 1:
-      return "Scholars's Home Public School, Bhopal";
+      return "Completed Higher Secondary with 87% from Scholars's Home Public School, Bhopal";
     case 2:
-      return `Robertson Convent Higher Secondary School, Umaria`;
+      return `Completed High School with 92% from Robertson Convent Higher Secondary School, Umaria`;
     default:
       return "Unknown step";
   }
@@ -68,8 +69,15 @@ class VerticalLinearStepper extends Component {
     const { activeStep } = this.state;
 
     return (
-      <div className="edu_row">
-        <Stepper activeStep={activeStep} orientation="vertical">
+      <div className="edu_row" id="education">
+        <h1 className="name-css">
+          <span className="surname">Education</span>
+        </h1>
+        <Stepper
+          activeStep={activeStep}
+          orientation="vertical"
+          data-aos="zoom-in"
+        >
           {steps.map((label, index) => (
             <Step key={label} className="edulist">
               <Chip

@@ -45,7 +45,7 @@ class Experience extends Component {
           </h1>
         </div>
         <div className="workchips">
-          <Card className="workcard">
+          <Card className="workcard" data-aos="zoom-in-right">
             <CardContent className="work1">
               <h1 style={{ color: "#f7f8f81" }}>Project Developer</h1>
             </CardContent>{" "}
@@ -63,7 +63,7 @@ class Experience extends Component {
               <span>Jan 2019 -</span>-<span>May 2019</span>
             </CardActions>
           </Card>
-          <Card className="workcard">
+          <Card className="workcard" data-aos="zoom-in">
             <CardContent className="work1">
               <h1 style={{ color: "#f7f8f81" }}>Web Developer</h1>
             </CardContent>{" "}
@@ -81,7 +81,7 @@ class Experience extends Component {
               <span>Jan 2019 -</span>-<span>Feb 2019</span>
             </CardActions>
           </Card>
-          <Card className="workcard">
+          <Card className="workcard" data-aos="zoom-in-left">
             <CardContent className="work1">
               <h1 style={{ color: "#f7f8f81" }}>Intern</h1>
             </CardContent>{" "}
