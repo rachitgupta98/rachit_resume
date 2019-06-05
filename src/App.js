@@ -122,11 +122,11 @@ class AppStart extends Component {
         <HomePage />
         <About />
         <div className="bg_color">
-          <Experience />
-          <Education />
+          <Experience /> <Education />
           <Skill />
           <Achievements />
         </div>
+
         <Particles className="particles" params={particlesOptions} />
       </Fragment>
     );
