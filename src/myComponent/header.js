@@ -11,6 +11,7 @@ import {
   ListItem,
   ListItemText
 } from "@material-ui/core";
+import Fab from "@material-ui/core/Fab";
 import MenuIcon from "@material-ui/icons/Menu";
 import { withStyles } from "@material-ui/core/styles";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
@@ -104,35 +105,36 @@ class Header extends Component {
         </AppBar>
 
         <Hidden mdUp>
-          <Drawer
-            variant="persistent"
-            anchor="top"
-            open={this.state.open}
-            classes={{ paperAnchorTop: classes.drawerColor }}
-          >
-            <div className={classes.drawerWidth}>
-              <IconButton onClick={this.handleMenubutton}>
-                <KeyboardArrowUpIcon />
-              </IconButton>
+          <div>
+            <Drawer
+              anchor="top"
+              open={this.state.open}
+              classes={{ paperAnchorTop: classes.drawerColor }}
+              style={{ color: "yellow" }}
+            >
+              <div className={classes.drawerWidth}>
+                <IconButton onClick={this.handleMenubutton}>
+                  <KeyboardArrowUpIcon />
+                </IconButton>
 
-              <List>
-                {[
-                  "about",
-                  "experience",
-                  "education",
-                  "skills & interest",
-
-                  "achievements"
-                ].map((text, index) => (
-                  <ListItem button key={index}>
-                    <Button href={`#${text}`} onClick={this.handleMenubutton}>
-                      <ListItemText primary={text} />
-                    </Button>
-                  </ListItem>
-                ))}
-              </List>
-            </div>
-          </Drawer>
+                <List>
+                  {[
+                    "about",
+                    "experience",
+                    "education",
+                    "skills",
+                    "achievements"
+                  ].map((text, index) => (
+                    <ListItem button key={index} className="menu_btn">
+                      <Button href={`#${text}`} onClick={this.handleMenubutton}>
+                        <ListItemText primary={text} />
+                      </Button>
+                    </ListItem>
+                  ))}
+                </List>
+              </div>
+            </Drawer>
+          </div>
         </Hidden>
       </Fragment>
     );

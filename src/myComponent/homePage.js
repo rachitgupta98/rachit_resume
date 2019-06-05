@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from "react";
 import { Grid, Paper, Typography } from "@material-ui/core";
 import profile from "../images/profile.jpg";
+import Fab from "@material-ui/core/Fab";
+import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 class HomePage extends Component {
   render() {
     return (

@@ -6,6 +6,9 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+#root {
+  max-width: 100%;
+}
 .particles {
   position: fixed;
   right: 0;
@@ -31,6 +34,11 @@ html {
   opacity: 0.6;
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.menu_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .home-page:before {
   content: " ";
@@ -294,7 +302,7 @@ ul li {
     justify-content: center;
     width: 100%;
     column-gap: 1rem;
-    grid-row-gap: 1em;
+    grid-row-gap: 2em;
   }
 }
 @media (min-width: 800px) and (max-width: 1080px) {
