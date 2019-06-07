@@ -8,6 +8,7 @@ import Education from "./myComponent/education";
 import Skill from "./myComponent/Skill";
 import Achievements from "./myComponent/achievements";
 import HomePage from "./myComponent/homePage";
+import Footer from "./myComponent/footer";
 import Particles from "react-particles-js";
 const particlesOptions = {
   particles: {
@@ -55,12 +56,12 @@ const particlesOptions = {
       enable: true,
       distance: 150,
       color: "#ffffff",
-      opacity: 0.4,
+      opacity: 0.1,
       width: 2
     },
     move: {
       enable: true,
-      speed: 8,
+      speed: 2,
       direction: "none",
       random: false,
       straight: false,
@@ -98,7 +99,7 @@ const particlesOptions = {
         size: 80,
         duration: 2,
         opacity: 0.8,
-        speed: 3
+        speed: 2
       },
       repulse: {
         distance: 400,
@@ -125,6 +126,7 @@ class AppStart extends Component {
           <Experience /> <Education />
           <Skill />
           <Achievements />
+          <Footer />
         </div>
 
         <Particles className="particles" params={particlesOptions} />

@@ -55,8 +55,12 @@ class Header extends Component {
           classes={{ positionStatic: classes.headerwidth }}
         >
           <Toolbar>
-            <Typography variant="title" color="inherit" style={{ flexGrow: 1 }}>
-              Resume
+            <Typography
+              variant="subtitle"
+              color="inherit"
+              style={{ flexGrow: 1 }}
+            >
+              RACHIT'S CV
             </Typography>
             <Hidden mdUp>
               <IconButton color="inherit" onClick={this.handleMenubutton}>
@@ -86,7 +90,7 @@ class Header extends Component {
                 Education
               </Button>
               <Button
-                href="#skills & interest"
+                href="#skills"
                 color="inherit"
                 style={{ fontSize: "1rem" }}
               >

@@ -91,6 +91,7 @@ css for About component
 ************** */
 .about-css {
   margin-top: 200px;
+  width: 100%;
 }
 
 .head-about {
@@ -315,11 +316,79 @@ ul li {
 .edu_row {
   width: 100%;
   margin-top: 30%;
-  margin-bottom: 20%;
 }
 .edulist {
   display: block;
   margin-left: auto;
   margin-right: auto;
   color: yellow;
+}
+.footer {
+  width: 100%;
+  opacity: 0.7;
+  margin-top: 10%;
+}
+.footer-a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-a i {
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+.skill_row {
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+.container {
+  /* Full width */
+  /* Grey background */
+  width: 50%;
+  background-color: white;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  /* Add some padding */
+  color: white; /* White text color */
+  height: 1px;
+}
+.wrapper_skill p {
+  margin-left: 25%;
+  color: white;
+}
+.html {
+  width: 90%;
+  background-color: yellow;
+} /* Green */
+.css {
+  width: 80%;
+  background-color: yellow;
+} /* Blue */
+.js {
+  width: 85%;
+  background-color: yellow;
+} /* Red */
+.react {
+  width: 75%;
+  background-color: yellow;
+}
+.node {
+  width: 70%;
+  background-color: yellow;
+}
+.db {
+  width: 65%;
+  background-color: yellow;
+}
+.python {
+  width: 50%;
+  background-color: yellow;
 }
