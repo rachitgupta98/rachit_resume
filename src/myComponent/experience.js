@@ -83,12 +83,12 @@ class Experience extends Component {
           </Card>
           <Card className="workcard" data-aos="zoom-in-left">
             <CardContent className="work1">
-              <h1 style={{ color: "#f7f8f81" }}>Intern</h1>
+              <h1 style={{ color: "#f7f8f81" }}>Backend Developer(Intern)</h1>
             </CardContent>{" "}
             <Divider light />
             <CardContent>
               <i className="fas fa-map-marker-alt" />
-              <h2 style={{ color: "#cac531" }}>Praedico Gwalior</h2>
+              <h2 style={{ color: "#cac531" }}>AgroGram</h2>
               <Typography variant="body2" color="inherit" component="p">
                 Currently Working
               </Typography>
