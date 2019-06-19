@@ -83,7 +83,7 @@ class Experience extends Component {
           </Card>
           <Card className="workcard" data-aos="zoom-in-left">
             <CardContent className="work1">
-              <h1 style={{ color: "#f7f8f81" }}>Backend Developer(Intern)</h1>
+              <h1 style={{ color: "#f7f8f81" }}>Backend Developer</h1>
             </CardContent>{" "}
             <Divider light />
             <CardContent>
