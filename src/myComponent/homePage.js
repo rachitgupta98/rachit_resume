@@ -17,6 +17,29 @@ class HomePage extends Component {
                 Rachit <span className="surname">Gupta</span>
               </h1>
               <p className="sub-detail">Artist and Developer</p>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <div className="sub-detail">
+                <p>Follow Me</p>
+              </div>
+              <p className="sub-detail2">
+                <a href="https://github.com/rachitgupta98">
+                  <i class="fab fa-github " />
+                </a>
+                <a href="https://www.instagram.com/_rachit_gupta/">
+                  <i class="fab fa-instagram " />
+                </a>
+                <a href="https://www.facebook.com/gr8.rachit">
+                  <i class="fab fa-facebook-f" />
+                </a>
+                <a href="https://github.com/rachitgupta98">
+                  <i class="fab fa-linkedin" />
+                </a>
+              </p>
             </Grid>
           </Grid>
         </div>
