@@ -3,8 +3,12 @@
 @import url("https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei");
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Sawarabi+Mincho|ZCOOL+XiaoWei");
 html {
-  scroll-behavior: smooth;
   overflow-x: hidden;
+}
+@media only screen and (max-width: 350) {
+  html {
+    overflow-x: hidden;
+  }
 }
 #root {
   max-width: 100%;
@@ -35,6 +39,9 @@ html {
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.header-color :hover {
+  color: yellow;
+}
 .menu_btn {
   display: flex;
   flex-direction: column;
@@ -50,7 +57,7 @@ html {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-position: 50% 0;
   z-index: -1;
 }
@@ -89,6 +96,7 @@ html {
 /* ************
 css for About component 
 ************** */
+
 .about-css {
   margin-top: 200px;
   width: 100%;
@@ -363,6 +371,14 @@ ul li {
 .wrapper_skill p {
   margin-left: 25%;
   color: white;
+}
+.C {
+  width: 85%;
+  background-color: yellow;
+}
+.JAVA {
+  width: 80%;
+  background-color: yellow;
 }
 .html {
   width: 90%;
