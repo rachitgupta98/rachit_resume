@@ -19,10 +19,7 @@ class HomePage extends Component {
               <p className="sub-detail">Artist and Developer</p>
               <br />
               <br />
-              <br />
-              <br />
-              <br />
-              <br />
+
               <div className="sub-detail">
                 <p>Follow Me</p>
               </div>
@@ -36,7 +33,7 @@ class HomePage extends Component {
                 <a href="https://www.facebook.com/gr8.rachit">
                   <i class="fab fa-facebook-f" />
                 </a>
-                <a href="https://github.com/rachitgupta98">
+                <a href="https://www.linkedin.com/in/rachit-gupta-906645147/">
                   <i class="fab fa-linkedin" />
                 </a>
               </p>
