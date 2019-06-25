@@ -9,6 +9,26 @@ class Skills extends React.Component {
         </h1>
         <div className="wrapper_skill">
           <div>
+            <p>C++</p>
+            <div className="container">
+              <div
+                className="skills C"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+              >
+                85%
+              </div>
+            </div>{" "}
+            <p>Java Core</p>
+            <div className="container">
+              <div
+                className="skills JAVA"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+              >
+                80%
+              </div>
+            </div>
             <p>Html</p>
             <div className="container">
               <div
@@ -19,7 +39,6 @@ class Skills extends React.Component {
                 90%
               </div>
             </div>
-
             <p>Css</p>
             <div className="container">
               <div
@@ -30,7 +49,6 @@ class Skills extends React.Component {
                 80%
               </div>
             </div>
-
             <p>JavaScript</p>
             <div className="container">
               <div
@@ -41,7 +59,6 @@ class Skills extends React.Component {
                 85%
               </div>
             </div>
-
             <p>ReactJS</p>
             <div className="container">
               <div
