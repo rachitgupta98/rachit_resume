@@ -90,6 +90,15 @@ html {
   margin-top: -25px;
   letter-spacing: 2px;
 }
+.sub-detail2 {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 26px;
+  font-weight: 20;
+  text-align: center;
+  margin-top: -25px;
+  letter-spacing: 2px;
+}
 .listposition {
   float: right;
 }
